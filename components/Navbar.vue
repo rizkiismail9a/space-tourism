@@ -69,10 +69,14 @@ const showNavbar = ref(false);
   transform: translate(0px);
   transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+/* .router-link-active .underline {
+    width: 0;
+  } */
 .router-link-exact-active .underline {
   opacity: 1 !important;
+  width: 100%;
   transform: translate(0px);
-  transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: width 0.3s ease-in;
 }
 @media screen and (max-width: 640px) {
   #Logo {
@@ -103,6 +107,12 @@ const showNavbar = ref(false);
     top: 0;
     bottom: 0;
     transform: translateY(-60px);
+  }
+  .router-link-exact-active .underline {
+    opacity: 1 !important;
+    width: 3px;
+    transform: translate(0px);
+    transition: width 0.3s ease-in;
   }
 }
 </style>
