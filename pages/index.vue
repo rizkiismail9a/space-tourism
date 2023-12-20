@@ -7,14 +7,14 @@
         Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!
       </p>
     </div>
-    <div id="ExploreButton" class="mt-[70px] mb-[20px] sm:mt[156px] md:mt-0 relative md:mx-auto">
+    <NuxtLink to="/destination" id="ExploreButton" class="mt-[70px] mb-[20px] sm:mt[156px] md:mt-0 relative md:mx-auto">
       <div class="h-[150px] sm:h-[242px] md:w-[274px] w-[150px] sm:w-[242px] md:h-[274px] uppercase rounded-full bg-white text-main-black"></div>
       <button
         class="bg-transparent hover:bg-white/25 w-[200px] sm:w-[320px] md:w-[380px] h-[200px] sm:h-[320px] md:h-[380px] rounded-full absolute -top-6 sm:-top-9 md:-top-[20%] -left-6 sm:-left-9 md:-left-[20%] cursor-pointer sm:text-[32px] text-main-black uppercase"
       >
         Explore
       </button>
-    </div>
+    </NuxtLink>
   </div>
 </template>
 
