@@ -8,10 +8,10 @@
 </template>
 
 <script setup>
-import { useDestinationStore } from "#imports";
-const destinationStore = useDestinationStore();
+import { useClientStore } from "~/stores/clientStore";
+const clientStore = useClientStore();
 const imageSrc = computed(() => {
-  return destinationStore.activeDestination;
+  return clientStore.activeDestination;
 });
 </script>
 

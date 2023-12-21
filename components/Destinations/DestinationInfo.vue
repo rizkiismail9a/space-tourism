@@ -41,16 +41,14 @@
 </template>
 
 <script setup>
-import { useDestinationStore } from "#imports";
-
-// const props = defineProps(["name", "desc", "distance", "estimation"]);
+import { useClientStore } from "~/stores/clientStore";
 const emits = defineEmits(["activeObject"]);
-const destinationStore = useDestinationStore();
+const clientStore = useClientStore();
 function activeObject(objectId) {
   emits("activeObject", objectId);
 }
 const activeDestination = computed(() => {
-  return destinationStore.activeDestination;
+  return clientStore.activeDestination;
 });
 </script>
 

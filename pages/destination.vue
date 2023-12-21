@@ -17,8 +17,8 @@
 <script setup>
 import DestinationInfo from "~/components/Destinations/DestinationInfo.vue";
 import ObjectImage from "~/components/Destinations/ObjectImage.vue";
-import { useDestinationStore } from "../stores/destination";
-const destinationStore = useDestinationStore();
+import { useClientStore } from "../stores/clientStore";
+const clientStore = useClientStore();
 const destinations = ref([
   {
     id: 1,
@@ -55,7 +55,7 @@ const destinations = ref([
 ]);
 
 function setActiveDestination(id) {
-  destinationStore.activeDestination = destinations.value[id - 1];
+  clientStore.activeDestination = destinations.value[id - 1];
 }
 </script>
 

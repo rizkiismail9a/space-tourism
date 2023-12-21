@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-export const useDestinationStore = defineStore("destination", {
+export const useClientStore = defineStore("clientStore", {
   state: () => {
     return {
       activeDestination: {
@@ -9,6 +9,13 @@ export const useDestinationStore = defineStore("destination", {
         distance: "384,400 km",
         estimation: "3 days",
         image: "/moon.png",
+      },
+      activeCrew: {
+        id: 1,
+        name: "Douglas Hurley",
+        position: "Commander",
+        desc: "Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.",
+        image: "/hurley.png",
       },
     };
   },
