@@ -23,7 +23,7 @@ useSeoMeta({
   title: "Home | Space Tourism",
   ogTitle: "Home | Space Tourism",
   description: "Do you wanna travel to space? Travel the space with us.",
-  ogDescription: "Do you wanna travel to space? Travel the space with us.",
+  ogDescription: "Do you wanna travel to space? Travel the space with us to various destinations, expertise crews, and newest tehnologies! 🚀",
   ogImage: "/capsule.jpg",
   twitterCard: "summary_large_image",
 });
