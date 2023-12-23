@@ -2,8 +2,8 @@
   <nav id="Navbar" class="text-white fixed md:top-[40px] top-0 z-[2] w-full">
     <div id="NavbarWrapper" class="flex items-center max-w-[1440px] mx-auto justify-between w-full">
       <div id="Logo">
-        <img src="/logo.png" class="md:ml-[55px] sm:ml-[39px] sm:w-[48px] sm:h-[48px] w-[40px] h-[40px] ml-[24px]" alt="" />
-        <img v-if="!showNavbar" src="/show-navbar.png" alt="" class="me-[24px] h-[21px] w-[24px] cursor-pointer sm:hidden block" @click="showNavbar = true" />
+        <img src="/logo.webp" class="md:ml-[55px] sm:ml-[39px] sm:w-[48px] sm:h-[48px] w-[40px] h-[40px] ml-[24px]" alt="" />
+        <img v-if="!showNavbar" src="/show-navbar.webp" alt="" class="me-[24px] h-[21px] w-[24px] cursor-pointer sm:hidden block" @click="showNavbar = true" />
       </div>
       <!-- Navbar links -->
       <div
