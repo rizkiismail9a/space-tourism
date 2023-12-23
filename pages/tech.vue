@@ -16,6 +16,14 @@
 </template>
 
 <script setup>
+useSeoMeta({
+  title: "Tech 101 | Space Tourism",
+  ogTitle: "Tech 101 | Space Tourism",
+  description: "Do you wanna travel to space? Travel the space with us.",
+  ogDescription: "Do you wanna travel to space? Travel the space with us to various destinations, expertise crews, and newest tehnologies! 🚀",
+  ogImage: "/capsule.jpg",
+  twitterCard: "summary_large_image",
+});
 import TechImages from "~/components/Tech/TechImages.vue";
 import TechInfo from "~/components/Tech/TechInfo.vue";
 </script>

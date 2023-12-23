@@ -13,6 +13,14 @@
 </template>
 
 <script setup>
+useSeoMeta({
+  title: "Crews | Space Tourism",
+  ogTitle: "Crews | Space Tourism",
+  description: "Do you wanna travel to space? Travel the space with us.",
+  ogDescription: "Do you wanna travel to space? Travel the space with us to various destinations, expertise crews, and newest tehnologies! 🚀",
+  ogImage: "/capsule.jpg",
+  twitterCard: "summary_large_image",
+});
 import CrewImages from "~/components/Crews/CrewImages.vue";
 import CrewInfo from "~/components/Crews/CrewInfo.vue";
 </script>

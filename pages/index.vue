@@ -18,7 +18,16 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: "Home | Space Tourism",
+  ogTitle: "Home | Space Tourism",
+  description: "Do you wanna travel to space? Travel the space with us.",
+  ogDescription: "Do you wanna travel to space? Travel the space with us.",
+  ogImage: "/capsule.jpg",
+  twitterCard: "summary_large_image",
+});
+</script>
 
 <style scoped>
 #HomePage {

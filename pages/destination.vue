@@ -15,6 +15,14 @@
 </template>
 
 <script setup>
+useSeoMeta({
+  title: "Destinatios | Space Tourism",
+  ogTitle: "Destinations | Space Tourism",
+  description: "Do you wanna travel to space? Travel the space with us.",
+  ogDescription: "Do you wanna travel to space? Travel the space with us to various destinations, expertise crews, and newest tehnologies! 🚀",
+  ogImage: "/capsule.jpg",
+  twitterCard: "summary_large_image",
+});
 import DestinationInfo from "~/components/Destinations/DestinationInfo.vue";
 import ObjectImage from "~/components/Destinations/ObjectImage.vue";
 import { useClientStore } from "../stores/clientStore";
