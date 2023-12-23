@@ -22,12 +22,12 @@
 
 <style scoped>
 #HomePage {
-  background: url("/home.png") no-repeat fixed center;
+  background: url("/home.webp") no-repeat fixed center;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
   #HomePage {
-    background: url("/home-sm.png") no-repeat fixed center;
+    background: url("/home-sm.webp") no-repeat fixed center;
     background-size: cover;
   }
 }

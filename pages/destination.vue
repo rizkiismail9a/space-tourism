@@ -61,7 +61,7 @@ function setActiveDestination(id) {
 
 <style scoped>
 #DestinationPage {
-  background: url("/destination.png") no-repeat fixed center;
+  background: url("/destination.webp") no-repeat fixed center;
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
