@@ -1,9 +1,9 @@
 <template>
   <div id="CrewImages" class="w-full h-fit my-[32px] sm:mb-0 sm:self-end">
-    <img v-if="activeCrew.id === 1" src="/hurley.png" class="h-[223px] sm:h-[525px] md:h-[600px] object-contain md:object-cover mx-auto sliding" alt="" />
-    <img v-else-if="activeCrew.id === 2" src="/mark.png" class="h-[223px] sm:h-[525px] md:h-[600px] object-contain md:object-cover mx-auto sliding" alt="" />
-    <img v-else-if="activeCrew.id === 3" src="/victor.png" class="h-[223px] sm:h-[525px] md:h-[600px] object-contain md:object-cover mx-auto sliding" alt="" />
-    <img v-else src="/ansari.png" class="h-[223px] sm:h-[525px] md:h-[600px] object-contain md:object-cover mx-auto sliding" alt="" />
+    <img v-if="activeCrew.id === 1" src="/hurley.png" class="h-[223px] sm:h-[525px] md:h-[600px] object-contain md:object-cover mx-auto sliding" :alt="activeCrew.name" />
+    <img v-else-if="activeCrew.id === 2" src="/mark.png" class="h-[223px] sm:h-[525px] md:h-[600px] object-contain md:object-cover mx-auto sliding" :alt="activeCrew.name" />
+    <img v-else-if="activeCrew.id === 3" src="/victor.png" class="h-[223px] sm:h-[525px] md:h-[600px] object-contain md:object-cover mx-auto sliding" :alt="activeCrew.name" />
+    <img v-else src="/ansari.png" class="h-[223px] sm:h-[525px] md:h-[600px] object-contain md:object-cover mx-auto sliding" :alt="activeCrew.name" />
   </div>
 </template>
 

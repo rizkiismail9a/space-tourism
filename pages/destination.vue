@@ -2,9 +2,9 @@
   <div id="DestinationPage" class="h-screen overflow-y-scroll">
     <div id="MainContent" class="flex flex-col items-center justify-center h-full mt-[88px] sm:mt-[136px] md:mt-[50px]">
       <div id="Title" class="sm:w-full sm:pl-11 md:pl-[166px] md:mb-[64px]">
-        <p class="font-BarlowCond tracking-[2.7px] sm:tracking-[3.38px] md:tracking-[4.72px] text-[16px] sm:text-[20px] md:text-[28px] text-white uppercase sm:text-left">
-          <span class="text-white/25 me-[18px] font-bold">01</span>Pick your destination
-        </p>
+        <h2 class="font-BarlowCond tracking-[2.7px] sm:tracking-[3.38px] md:tracking-[4.72px] text-[16px] sm:text-[20px] md:text-[28px] text-white uppercase sm:text-left">
+          <span class="text-white/25 font-bold me-[16px]">01</span> Pick your destination
+        </h2>
       </div>
       <div class="flex flex-col items-center md:flex-row md:justify-evenly md:w-full">
         <ObjectImage></ObjectImage>
